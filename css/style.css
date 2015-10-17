@@ -1,0 +1,38 @@
+.blue-btn {
+	width: 235px;
+	height: 60px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	margin: 25px 0 0 35px;
+	color: #ffffff;
+	font-variant: small-caps;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	padding: 0;
+	background: url(../img/center.png) repeat-x;
+
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(235,235,235,1);
+	-moz-box-shadow: 0px 6px 5px 0px rgba(235,235,235,1);
+	box-shadow: 0px 6px 5px 0px rgba(235,235,235,1);
+}
+.blue-btn:before{
+	content: url(../img/left.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.blue-btn:after {
+	content: url(../img/right.png);
+	background-repeat: no-repeat;
+	float: right;
+}
+.first-text {
+	display: inline-block;
+	margin-top: 10px;
+}
+.last-text {
+	font-weight: bold;
+}
